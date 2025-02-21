@@ -6,7 +6,7 @@
                 {
                     "key": "X-Frame-Options",
                     "value": "ALLOWALL"
-                },
+                }
             ]
         }
     ]
