@@ -64,8 +64,8 @@ function App() {
         />
         {/* 動態顯示可選時段 */}
         <div className="time-container">
-          <div id="time-title">時段預覽</div>
-          <div id="time-title">於右側「進貨時段」欄位選擇 → </div>
+          <div id="time-title">可選時段預覽</div>
+          <div id="time-subtitle">👇👇 在下面的<b>「進貨時段」</b>欄位選擇 👇👇</div>
           <div className="subTime-container">
             {availableTime.length > 0 ? (
               availableTime.map((time, index) => (
