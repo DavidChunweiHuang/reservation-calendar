@@ -97,7 +97,7 @@ iframe {
 /* 讓 time-box 保持 2x2 排列 */
 .subTime-container {
   display: grid;
-  grid-template-columns: repeat(2, 120px);
+  grid-template-columns: repeat(1, 120px);
   grid-template-rows: auto;
   gap: 10px;
   justify-content: center;
@@ -105,7 +105,7 @@ iframe {
 
 .time-box {
   background-color: white;
-  border: 1px solid #3874CB;
+  /* border: 1px solid #3874CB; */
   color: #3874CB;
   padding: 10px 20px;
   border-radius: 20px;
