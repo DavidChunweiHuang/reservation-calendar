@@ -8,7 +8,7 @@ import dayjs from 'dayjs';
 function App() {
 
   // let remainedTime
-  const options = ["🟡 15:00", "🟠 16:00", "🔴 17:00", "🔵 18:30", "⚫️ 19:30"]
+  const options = ["15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30"]
   const [value, setValue] = useState(dayjs())
   const [availableTime, setAvailableTime] = useState([]);
 
