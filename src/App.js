@@ -15,7 +15,7 @@ function App() {
   const fetchData = async (queryDate) => {
     try {
       const myHeaders = new Headers();
-      myHeaders.append("Authorization", "Basic RGx5SWtwRHJtbHd3Q3lUQ0FLNXpSbitNNDFCTzBoS050ODN4OS9yVm8vclNLRmxDOTRTYURicmdyczdUa2t5b0xyUjlrM0UzUlVFPQ==");
+      myHeaders.append("Authorization", "Basic RzljaEEzSzF3NmRzK0N3SnhiL1JGb2VCU29XcE1BUkwyYU1rRThUUEtTRUlJbDFkanYyck1VdWI3UUFwQlAvOC9GNjRHZy9hSm80PQ==");
       myHeaders.append("Cookie", "JSESSIONID=node0baq2q3668zvejyqjpz47x2y59128.node0");
 
       const requestOptions = {
@@ -24,7 +24,7 @@ function App() {
         redirect: "follow"
       };
 
-      const response = await fetch(`https://ap11.ragic.com/thesunalley/for-testing/7?PAGEID=V0C&where=${queryDate}`, requestOptions)
+      const response = await fetch(`https://ap11.ragic.com/thesunalley/product-management/2?PAGEID=R7X&where=${queryDate}`, requestOptions)
       const result = await response.json();
 
       const restockTime = Object.values(result)
